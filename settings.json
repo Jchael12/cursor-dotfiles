@@ -1,0 +1,83 @@
+{
+  "vim.smartRelativeLine": true,
+  "editor.fontFamily": "GeistMono Nerd Font",
+  "editor.fontSize": 18,
+  "editor.linkedEditing": true,
+  "diffEditor.experimental.showEmptyDecorations": false,
+  "sortJSON.orderOverride": ["name", "version", "description"],
+  "sortJSON.orderUnderride": ["dependencies", "devDependencies"],
+  "editor.suggest.insertMode": "replace",
+  "editor.formatOnSave": true,
+  "workbench.colorTheme": "Deep Dark Space",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.codeActionsOnSave": {
+    "source.addMissingImports.ts": "always",
+    "source.organizeImports": "always"
+  },
+  "editor.fontLigatures": true,
+  "editor.cursorBlinking": "smooth",
+  "workbench.sideBar.location": "right",
+  "workbench.iconTheme": "material-icon-theme",
+  "projectManager.sortList": "Recent",
+  "projectManager.git.baseFolders": ["C:\\Users\\abbas\\codes"],
+  "cmake.showOptionsMovedNotification": false,
+  "glassit.alpha": 255,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.settings.editor": "json",
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.foldfix": true,
+  "vim.highlightedyank.color": "rgba(230, 97, 89, 0.7)",
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.textColor": "white",
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "vim.leader": "<space>",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["k", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<c-a>"],
+      "after": ["g", "g", "V", "G"]
+    },
+    {
+      "before": ["<leader>", "k"],
+      "after": ["editor.action.showHowever"]
+    },
+    {
+      "before": ["<leader>", "c", "a"],
+      "commands": ["editor.action.quickFix"]
+    },
+    {
+      "after": ["^"],
+      "before": ["H"]
+    },
+    {
+      "after": ["$"],
+      "before": ["L"]
+    },
+    {
+      "before": ["[", "d"],
+      "commands": ["editor.action.marker.prev"]
+    },
+    {
+      "before": ["]", "d"],
+      "commands": ["editor.action.marker.next"]
+    }
+  ],
+  "window.menuBarVisibility": "compact",
+  "workbench.layoutControl.enabled": false,
+  "editor.stickyScroll.enabled": true,
+  "git.openRepositoryInParentFolders": "never",
+  "workbench.colorCustomizations": {
+    "terminal.background": "#00000000"
+  },
+  "workbench.settings.applyToAllProfiles": ["workbench.colorCustomizations"],
+  "window.titleBarStyle": "custom"
+}
